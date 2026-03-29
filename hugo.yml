@@ -13,7 +13,6 @@ params:
     Content: |
       Bienvenidos a Infotecos. Un espacio para aprender y compartir sobre tecnología.
       <br><br>
-      
       **Redes Sociales:**
   socialIcons:
     - name: youtube
