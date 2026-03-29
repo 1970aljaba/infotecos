@@ -2,7 +2,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"] # Asegurate de que tu rama principal se llame main
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.124.1 # Podés subirla si instalaste una más nueva
+      HUGO_VERSION: 0.124.1
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,8 +33,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${{ env:HUGO_VERSION }}
-          extended: true # Vital para PaperMod
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
       - name: Setup Pages
         id: pages
@@ -45,7 +45,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps:pages:outputs:base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps:deployment:outputs:page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
