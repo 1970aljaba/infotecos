@@ -13,8 +13,8 @@ params:
     Content: |
       Bienvenidos a Infotecos. Un espacio para aprender y compartir sobre tecnología.
       
-      **Redes Sociales:**
       
+      **Redes Sociales:**
   socialIcons:
     - name: youtube
       url: "https://youtube.com/AlejandroBartolomé"
