@@ -6,9 +6,28 @@ theme: "PaperMod"
 params:
   defaultTheme: auto
   showCodeCopyButtons: true
+  params:
+  
+  # --- TEXTO DE BIENVENIDA Y REDES ---
+  homeInfoParams:
+    Title: "¡Hola a todos!"
+    Content: "Bienvenidos a Infotecos. Un espacio para aprender y compartir sobre tecnología."
+  socialIcons:
+    - name: github
+      url: "https://github.com/1970aljaba"
+    - name: x
+      url: "https://x.com/aljaba1970"
+    - name: instagram
+      url: "https://instagram.com/aljaba1970"
 
 menu:
   main:
     - name: Inicio
       url: /
       weight: 10
+    - name: Tutoriales
+      url: /categories/tutoriales/
+      weight: 20
+    - name: Noticias
+      url: /categories/noticias/
+      weight: 30
