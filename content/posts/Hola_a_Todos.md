@@ -1,7 +1,7 @@
 +++
 date = '2026-03-29T16:36:30-03:00'
 draft = false
-title = 'Hola a Todos!!'
+title = 'Nuestro Espacio Tecnológico!!'
 categories = ['Noticias']
 
 # AGREGÁ ESTE BLOQUE EXACTAMENTE ASÍ:
