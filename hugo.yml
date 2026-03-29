@@ -1,0 +1,14 @@
+baseURL: "https://1970aljaba.github.io/"
+languageCode: "es-ar"
+title: "Infotecos"
+theme: "PaperMod"
+
+params:
+  defaultTheme: auto
+  showCodeCopyButtons: true
+
+menu:
+  main:
+    - name: Inicio
+      url: /
+      weight: 10
