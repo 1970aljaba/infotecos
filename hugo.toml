@@ -1,0 +1,23 @@
+baseURL = 'https://1970aljaba.github.io/'
+languageCode = 'es-ar'
+title = 'Infotecos'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "auto"
+    showCodeCopyButtons = true
+    ShowReadingTime = true
+
+    [params.homeInfoParams]
+        Title = "Hola, bienvenido a Infotecos 👋"
+        Content = "Blog de tecnología, artículos informativos y tutoriales."
+
+[[menu.main]]
+    name = "Archivo"
+    url = "/archives"
+    weight = 10
+
+[[menu.main]]
+    name = "Buscar"
+    url = "/search"
+    weight = 20
