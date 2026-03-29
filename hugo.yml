@@ -31,3 +31,6 @@ menu:
     - name: Noticias
       url: /categories/noticias/
       weight: 30
+    - name: Hobbies
+      url: /categories/hobbies/
+      weight: 40
