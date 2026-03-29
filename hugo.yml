@@ -12,6 +12,8 @@ params:
   homeInfoParams:
     Title: "¡Hola a todos!"
     Content: "Bienvenidos a Infotecos. Un espacio para aprender y compartir sobre tecnología."
+  
+   **Redes Sociales:**
   socialIcons:
     - name: youtube
       url: "https://youtube.com/AlejandroBartolomé"
@@ -19,6 +21,7 @@ params:
       url: "https://x.com/aljaba1970"
     - name: instagram
       url: "https://instagram.com/aljaba1970"
+   
 
 menu:
   main:
