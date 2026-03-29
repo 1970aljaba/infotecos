@@ -9,12 +9,11 @@
     <lastBuildDate>Sun, 29 Mar 2026 16:36:30 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hola_a_Todos</title>
+      <title>Hola a Todos</title>
       <link>http://localhost:1313/posts/hola_a_todos/</link>
       <pubDate>Sun, 29 Mar 2026 16:36:30 -0300</pubDate>
       <guid>http://localhost:1313/posts/hola_a_todos/</guid>
-      <description>&lt;h1 id=&#34;hola-a-todos&#34;&gt;Hola a Todos!!!&lt;/h1&gt;
-&lt;p&gt;Hago mi primer post, estoy muy entusiasmado con esta herramienta de comunicación, espero que sea de utilidad no solo para mi como una nueva experiencia, sino que también para aquel que le sirva el contenido de esta sitio.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hago mi primer post, estoy muy entusiasmado con esta herramienta de comunicación, espero que sea de utilidad no solo para mi como una nueva experiencia, sino que también para aquel que le sirva el contenido de esta sitio.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
