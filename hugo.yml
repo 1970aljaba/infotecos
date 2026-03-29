@@ -12,7 +12,9 @@ params:
     Title: "¡Hola a todos!"
     Content: |
       Bienvenidos a Infotecos. Un espacio para aprender y compartir sobre tecnología.
-      <br><br>
+      
+      &nbsp;
+      
       **Redes Sociales:**
   socialIcons:
     - name: youtube
