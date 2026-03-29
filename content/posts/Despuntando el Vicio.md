@@ -1,5 +1,5 @@
 +++
-date = ''
+date = '2026-03-29T19:00:00-03:00'
 draft = false
 title = 'Despuntando el vicio!!'
 categories = ['Hobbies']
