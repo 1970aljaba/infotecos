@@ -22,7 +22,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.124.1
+      HUGO_VERSION: 0.145.0 # Actualizado a una versión de 2026
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Para quitar el warning de Node
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,14 +39,14 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Build with Hugo
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://1970aljaba.github.io/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -55,7 +56,6 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
