@@ -1,5 +1,5 @@
 +++
-date = '2026-03-30T10:00:00-03:00'
+date = '2026-03-29T10:00:00-03:00'
 draft = false
 title = 'Tutoriales: ¡Próximamente!'
 categories = ['Tutoriales']
