@@ -1,0 +1,11 @@
+/* Estilos específicos para la página Sobre Mí */
+.single-content img {
+    width: 200px;            /* Ancho fijo de la foto */
+    height: 200px;           /* Alto fijo (igual al ancho para que sea cuadrada) */
+    object-fit: cover;       /* Recorta la imagen para que no se estire */
+    border-radius: 50%;      /* Hace la foto redonda como en las redes sociales */
+    margin: 20px auto;       /* Centra la imagen y le da espacio arriba/abajo */
+    display: block;          /* Necesario para centrar con margin: auto */
+    border: 5px solid #ccc;  /* Opcional: un borde gris lindo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: una sombrita suave */
+}
