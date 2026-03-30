@@ -41,3 +41,7 @@ menu:
     - name: Sobre mí
       url: /about/
       weight: 50
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
