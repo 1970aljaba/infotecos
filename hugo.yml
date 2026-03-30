@@ -38,3 +38,6 @@ menu:
     - name: Hobbies
       url: /categories/hobbies/
       weight: 40
+    - name: Sobre mí
+      url: /about/
+      weight: 50
