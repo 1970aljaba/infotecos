@@ -2,6 +2,7 @@ baseURL: "https://www.infotecos.ar/"
 languageCode: "es-ar"
 title: "Infotecos"
 theme: "PaperMod"
+disqusShortname: "infotecos"  # Reemplazá esto por el tuyo
 
 params:
   defaultTheme: auto
