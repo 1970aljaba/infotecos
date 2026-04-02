@@ -4,6 +4,14 @@ title: "Infotecos"
 theme: "PaperMod"
 disqusShortname: "infotecos"  # Reemplazá esto por el tuyo
 
+# --- AGREGAR ESTE BLOQUE EXACTAMENTE ACÁ ---
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+# ------------------------------------------
+
 params:
   defaultTheme: auto
   showCodeCopyButtons: true
@@ -29,6 +37,9 @@ params:
 
 menu:
   main:
+    - name: Buscar
+      url: /search/
+      weight: 5
     - name: Inicio
       url: /
       weight: 10
