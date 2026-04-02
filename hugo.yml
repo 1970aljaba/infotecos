@@ -6,6 +6,8 @@ theme: "PaperMod"
 params:
   defaultTheme: auto
   showCodeCopyButtons: true
+  comments: true
+  # ... (resto de tus configuraciones) ...
   
   # --- TEXTO DE BIENVENIDA Y REDES ---
   homeInfoParams:
