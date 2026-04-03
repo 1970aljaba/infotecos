@@ -1,7 +1,7 @@
 ---
 title: Probando Front Matter
 description: Nueva Herramienta de Posteos
-date: 2026-04-03T14:00:59.810Z
+date: 2026-04-03T14:16:58.458Z
 preview: /images/fmcms.png
 draft: false
 tags: []
