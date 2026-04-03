@@ -174,8 +174,19 @@
               "icon": "lucide-list",
               "title": "Esquema de Probando Obsidian"
             }
+          },
+          {
+            "id": "2e4f2310aeea698b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -193,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "799473c414321a29",
+  "active": "4197502564ee3406",
   "lastOpenFiles": [
     "content/posts/Despuntando el Vicio.md",
     "content/posts/Hola_a_Todos.md",
