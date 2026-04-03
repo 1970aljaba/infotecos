@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Probando Obsidian.md",
+                "file": "content/posts/Obsidian.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Probando Obsidian"
+              "title": "Obsidian"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Probando Obsidian.md",
+                "file": "content/posts/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Probando Obsidian"
+              "title": "Enlaces entrantes de Obsidian"
             }
           },
           {
@@ -204,12 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4197502564ee3406",
+  "active": "799473c414321a29",
   "lastOpenFiles": [
     "content/posts/Despuntando el Vicio.md",
     "content/posts/Hola_a_Todos.md",
     "content/posts/tutoriales-placeholder.md",
-    "content/posts/Probando Obsidian.md",
+    "content/posts/Obsidian.md",
     "Sin título.md"
   ]
 }
