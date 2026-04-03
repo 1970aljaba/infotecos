@@ -1,4 +1,0 @@
-
-# Probando Obsidian 
-
-Cómo están? me encuentro probando esta nueva herramienta para hacer de una manera más facil los posteos, este es un post de prueba.
