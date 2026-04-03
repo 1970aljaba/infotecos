@@ -12,9 +12,15 @@
           "type": "string"
         },
         {
+          "title": "Comments",
+          "name": "comments",
+          "type": "string"
+        },
+        {
           "title": "Description",
           "name": "description",
-          "type": "string"
+          "type": "string",
+          "default": true
         },
         {
           "title": "Publishing date",
